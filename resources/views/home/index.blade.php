@@ -448,30 +448,6 @@
 
 				<div class="clear"></div>
 
-				<div class="fancy-title title-border title-center topmargin-sm">
-					<h4>Popular Brands</h4>
-				</div>
-
-				<ul class="clients-grid grid-6 nobottommargin clearfix">
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/1.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/2.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/3.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/4.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/5.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/6.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/7.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/8.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/9.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/10.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/11.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/12.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/13.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/14.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/15.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/16.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/17.png')}}" alt="Clients"></a></li>
-					<li><a href="#"><img src="{{asset('assets/images/brands/logo/18.png')}}" alt="Clients"></a></li>
-				</ul>
 
 			</div>
 
