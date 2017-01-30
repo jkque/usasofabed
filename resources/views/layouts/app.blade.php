@@ -178,7 +178,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="#"><div>Gallery</div><span>Awesome Works</span></a></li>
+							<li><a href="#"><div>Catalog</div><span>Awesome Works</span></a></li>
 							<li><a href="#"><div>Sale</div><span>Awesome Works</span></a></li>
 							<li><a href="#"><div>Blog</div><span>Latest News</span></a></li>
 							<li><a href="#"><div>Videos</div><span>Latest News</span></a></li>
@@ -228,7 +228,7 @@
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#">Home</a>/<a href="#">Gallery</a>/<a href="#">Sale</a>/<a href="#">Blog</a>/<a href="#">Videos</a>/<a href="#">Contact</a>
+							<a href="#">Home</a>/<a href="#">Catalog</a>/<a href="#">Sale</a>/<a href="#">Blog</a>/<a href="#">Videos</a>/<a href="#">Contact</a>
 						</div>
 						<div class="fright clearfix">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
