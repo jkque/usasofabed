@@ -79,7 +79,7 @@
 
 				<div class="col_half nobottommargin">
 
-					<p class="nobottommargin"><strong>Call:</strong> (032) 520-1070 | <strong>Email:</strong> info@usasofabeds.com</p>
+					<p class="nobottommargin"><strong>Call:</strong> (032) 272-7434 | <strong>Email:</strong> bellacapriusasofabed@yahoo.com</p>
 
 				</div>
 
@@ -89,13 +89,13 @@
 					============================================= -->
 					<div class="top-links">
 						<ul>
-							<li><a href="#">USD</a>
+{{-- 							<li><a href="#">USD</a>
 								<ul>
 									<li><a href="#">EUR</a></li>
 									<li><a href="#">AUD</a></li>
 									<li><a href="#">GBP</a></li>
 								</ul>
-							</li>
+							</li> --}}
 							<li><a href="#">EN</a>
 								<ul>
 									<li><a href="#"><img src="{{asset('assets/images/icons/flags/french.png')}}" alt="French"> FR</a></li>
@@ -103,7 +103,10 @@
 									<li><a href="#"><img src="{{asset('assets/images/icons/flags/german.png')}}" alt="German"> DE</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Login</a>
+							<li>
+								<a href="#" data-scrollto="#booking-appointment-form" data-offset="100" data-easing="easeInOutExpo" data-speed="1200" class="bgcolor" style="color:#fff;">Book an Appointment</a>
+							</li>
+{{-- 							<li><a href="#">Login</a>
 								<div class="top-link-section">
 									<form id="top-login" role="form">
 										<div class="input-group" id="top-login-username">
@@ -120,7 +123,7 @@
 										<button class="btn btn-danger btn-block" type="submit">Sign in</button>
 									</form>
 								</div>
-							</li>
+							</li> --}}
 						</ul>
 					</div><!-- .top-links end -->
 
@@ -148,40 +151,13 @@
 
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu">
+					<nav id="primary-menu" class="style-3">
 
 						<ul>
-							<li class="current"><a href="#"><div>Home</div><span>Lets Start</span></a>
-								<ul>
-									<li><a href="index-corporate.html"><div>Home - 1</div></a>
-										<ul>
-											<li><a href="index-corporate.html"><div>Home - 4</div></a></li>
-											<li><a href="index-corporate-2.html"><div>Home - 5</div></a></li>
-											<li><a href="index-corporate-3.html"><div>Home - 6</div></a></li>
-											<li><a href="index-corporate-4.html"><div>Home - 8</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-portfolio.html"><div>Home - 2</div></a>
-										<ul>
-											<li><a href="index-portfolio.html"><div>Home - 9</div></a></li>
-											<li><a href="index-portfolio-2.html"><div>Home - 10</div></a></li>
-											<li><a href="index-portfolio-3.html"><div>Home - 11</div></a></li>
-											<li><a href="index-portfolio-4.html"><div>Home - 12</div></a></li>
-										</ul>
-									</li>
-									<li><a href="index-blog.html"><div>Home - 3</div></a>
-										<ul>
-											<li><a href="index-blog.html"><div>Home - 14</div></a></li>
-											<li><a href="index-blog-2.html"><div>Home - 15</div></a></li>
-											<li><a href="index-blog-3.html"><div>Home - 16</div></a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
+							<li class="current"><a href="#"><div>Home</div><span>Lets Start</span></a></li>
+							<li><a href="#"><div>About</div><span>Our History</span></a></li>
 							<li><a href="#"><div>Catalog</div><span>Awesome Works</span></a></li>
-							<li><a href="#"><div>Sale</div><span>Awesome Works</span></a></li>
-							<li><a href="#"><div>Blog</div><span>Latest News</span></a></li>
-							<li><a href="#"><div>Videos</div><span>Latest News</span></a></li>
+							<li><a href="#"><div>Videos</div><span>Latest Videos</span></a></li>
 							<li><a href="#"><div>Contact</div><span>Get In Touch</span></a></li>
 						</ul>
 
@@ -193,12 +169,12 @@
 
 						<!-- Top Search
 						============================================= -->
-						<div id="top-search">
+	{{-- 					<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 							<form action="search.html" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
-						</div><!-- #top-search end -->
+						</div> --}}<!-- #top-search end -->
 
 					</nav><!-- #primary-menu end -->
 
@@ -223,12 +199,12 @@
 					<div class="col_half">
 						<img src="{{asset('assets/images/footer-logo.png')}}" alt="" class="footer-logo">
 
-						Copyrights &copy; 2017 All Rights Reserved by USA SOFA BEDS.
+						Copyrights &copy; 2017 All Rights Reserved by USA SOFA BEDS INC.
 					</div>
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#">Home</a>/<a href="#">Catalog</a>/<a href="#">Sale</a>/<a href="#">Blog</a>/<a href="#">Videos</a>/<a href="#">Contact</a>
+							<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Catalog</a>/<a href="#">Videos</a>/<a href="#">Contact</a>
 						</div>
 						<div class="fright clearfix">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">

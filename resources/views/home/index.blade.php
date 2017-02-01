@@ -460,7 +460,7 @@
 								<i class="icon-thumbs-up2"></i>
 							</div>
 							<h3>100% Original</h3>
-							<p class="notopmargin">We guarantee you the sale of Original Brands.</p>
+							<p class="notopmargin">We guarantee you the sale of Original Brands are made from USA.</p>
 						</div>
 					</div>
 
