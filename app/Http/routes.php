@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('home.index');
 });
+
+Route::get('/contact', function () {
+    return view('contact.index');
+});
+
+Route::get('/about', function () {
+    return view('about.index');
+});
+
+Route::get('/catalog', function () {
+    return view('catalog.index');
+});
+
+Route::get('/videos', function () {
+    return view('videos.index');
+});

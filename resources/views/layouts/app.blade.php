@@ -154,11 +154,11 @@
 					<nav id="primary-menu" class="style-3">
 
 						<ul>
-							<li class="current"><a href="#"><div>Home</div><span>Lets Start</span></a></li>
-							<li><a href="#"><div>About</div><span>Our History</span></a></li>
-							<li><a href="#"><div>Catalog</div><span>Awesome Works</span></a></li>
-							<li><a href="#"><div>Videos</div><span>Latest Videos</span></a></li>
-							<li><a href="#"><div>Contact</div><span>Get In Touch</span></a></li>
+							<li {{\Request::path() == '/' ? 'class=current' : '' }}><a href="{{ url('/') }}"><div>Home</div><span>Lets Start</span></a></li>
+							<li {{\Request::path() == 'about' ? 'class=current' : '' }}><a href="{{ url('/about') }}"><div>About</div><span>Our History</span></a></li>
+							<li {{\Request::path() == 'catalog' ? 'class=current' : '' }}><a href="{{ url('/catalog') }}"><div>Catalog</div><span>Awesome Works</span></a></li>
+							<li {{\Request::path() == 'videos' ? 'class=current' : ''}}><a href="{{ url('/videos') }}"><div>Videos</div><span>Latest Videos</span></a></li>
+							<li {{\Request::path() == 'contact' ? 'class=current' : ''}}><a href="{{ url('/contact') }}"><div>Contact</div><span>Get In Touch</span></a></li>
 						</ul>
 
 						<!-- Top Cart
@@ -204,7 +204,7 @@
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Catalog</a>/<a href="#">Videos</a>/<a href="#">Contact</a>
+							<a href="{{ url('/') }}">Home</a>/<a href="{{ url('/about') }}">About</a>/<a href="{{ url('/catalog') }}">Catalog</a>/<a href="{{ url('/videos') }}">Videos</a>/<a href="{{ url('/contact') }}">Contact</a>
 						</div>
 						<div class="fright clearfix">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
@@ -282,6 +282,8 @@
 	<script type="text/javascript" src="{{ asset('assets/js/revolution.extension.navigation.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/revolution.extension.migration.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/revolution.extension.parallax.min.js') }}"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBjkcN1HT_vhe4qWBWurC3SWzpEV0Yh62g"></script>>
+	<script type="text/javascript" src="{{ asset('assets/js/jquery.gmap.js') }}"></script>
 
 	<script type="text/javascript">
 
