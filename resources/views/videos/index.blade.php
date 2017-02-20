@@ -21,11 +21,6 @@
 		</div>
 
 	</section><!-- #page-title end -->
-
-	<!-- Google Map
-	============================================= -->
-	<section id="google-map" class="gmap slider-parallax"></section>
-
 	<!-- Content
 	============================================= -->
 	<section id="content">
@@ -33,6 +28,10 @@
 		<div class="content-wrap">
 
 			<div class="container clearfix">
+				<video poster="{{ asset('assets/images/the_cozzy_mattress.png')}}" preload="auto" controls style="display: block; width: 100%;">
+					<source src='{{ asset('assets/videos/the_cozzy_mattress.mp4')}}' type='video/mp4' />
+					{{-- <source src='images/videos/explore.mp4' type='video/mp4' /> --}}
+				</video>
 			</div>
 		</div>
 
